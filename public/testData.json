@@ -1,0 +1,47 @@
+{
+    "main": {
+      "name":"Bruce Molina",
+      "occupation":"Full Stack Web Developer/Programmer",
+      "description":"I'm a driven and analytical Bootcamp graduate who is pursuing a backend developer position that allows me to utilize technologies such as Python, SQL, HTML, CSS, Javascript, and React to create intuitive, elegant and cutting-edge user experiences",
+      "image":"profilepic.jpg",
+      "bio":"I am an accountable and disciplined professional with over five years of experience leading complex projects through their entire life-cycles in the publishing and tech space. I am adept at creating process improvement through work automation and focused leadership. I have combined my program management skills with cutting-edge web development skills that I have curated through an intensive 14-week coding bootcamp. I build web apps because I love the satisfaction of learning and applying viable new skills and challenging my brain through code! I am mainly proficient in Python, Ruby on Rails, JavaScript/React HTML and CSS. I regularly use these as well as other modules/libraries such as MatPlotLib, Pandas and Numpy. In my free time, I enjoy running, attending HIIT classes and stray cat rescue and rehabilitation" ,
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "email": "brucemolinanyc@gmail.com",
+      "phone": "917-576-9762",
+      "address":{
+        "street":"32-68 44th Street",
+        "city":"New York",
+        "state":"NY",
+        "zip": "11103"
+      },
+      "website": "create a domain name",
+      "resumedownload":"create a domain name",
+      "social":[
+        {
+          "name":"twitter",
+          "url":"https://twitter.com/Bruce_Molina_/",
+          "className":"fa fa-twitter"
+        },
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/brucemolina/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"https://www.instagram.com/bruce_molina/",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/brucemolinanyc",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"medium",
+          "url":"https://medium.com/@bruce.d.molina",
+          "className":"fa fa-medium"
+        }
+      ]
+    }
+}
