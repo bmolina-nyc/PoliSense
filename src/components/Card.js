@@ -2,12 +2,18 @@ import React from 'react'
 
 const Card = () => (
     <div className="card">
-        This is a card component This is a card component         This is a card component This is a card component
-        This is a card component This is a card component
-        This is a card component This is a card component
-        This is a card component This is a card component
-        This is a card component This is a card component
-        This is a card component This is a card component
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
+    Score Component Card
     </div>
 )
 

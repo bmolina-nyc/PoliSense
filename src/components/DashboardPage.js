@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchBar from './Searchbar'
-import Card from './Card'
+import SearchBar from './Searchbar';
+import Card from './Card';
 
 const DashboardPage = () => (
         <div className="dashboard">
@@ -13,19 +13,9 @@ const DashboardPage = () => (
                 <Card/>
                 <Card/>
                 <Card/>
-
-                <Card/>
-
-                <Card/>
-
-                <Card/>
-
-                <Card/>
-
-                <Card/>
-
-
             </div>
+
+           
         </div>
     )
     

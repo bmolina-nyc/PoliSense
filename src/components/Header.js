@@ -44,7 +44,7 @@ export default class Header extends React.Component {
                   <NavLink  className="text-warning" href="/placeholder2">Placeholder2</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="text-warning" href="https://github.com/tpark333/redline_hackathon">GitHub</NavLink>
+                  <NavLink className="text-warning" href="https://github.com/bmolina-nyc/PoliSense">GitHub</NavLink>
                 </NavItem>
               
               </Nav>

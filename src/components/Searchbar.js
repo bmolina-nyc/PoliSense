@@ -16,7 +16,7 @@ export default class SearchBar extends React.Component{
     componentDidMount() {
         fetch('/testData.json')
           .then(response => response.json())
-          .then(data => this.setState({data: data.main.name}))
+          .then(data => console.log(data))
       }
 
 
