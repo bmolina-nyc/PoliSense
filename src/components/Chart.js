@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Bar, Line, Pie, Scatter} from 'react-chartjs-2';
+import {Line} from 'react-chartjs-2';
+// Bar, Pie, Scatter
 
 class Chart extends Component{
 
@@ -33,7 +34,7 @@ class Chart extends Component{
 		return(
 			<div className="chart">
 
-            <Line
+            <Line className="line"
             data={this.state.chartData}
             
             options={{maintainAspectRatio: false}}

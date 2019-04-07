@@ -1,23 +1,38 @@
 {
-"author": "Dr. Susan Berry",
 
-
+"article2": 
+{
+"author": "Dr. bruce",
 "base": "https://www.breitbart.com",
-
-
 "provider": "breitbart",
-
-
 "published_date": "2019-04-06T04:00:00+00:00",
-
-
-"keywords": ["parenthood", "elective", "churches", "plans", "force", "pressured", "health", "pay", "coverage", "emails", "planned", "state", "reveal", "abortions", "california", "abortion"],
-
-
+"keywords": ["drugs"],
 "headline": "Internal emails between Planned Parenthood and the California Health and Human Services (CHHS) agency reveal the abortion industry giant pressured the state agency to force religious groups and churches to cover elective abortions.",
 "sentiment": {"neg": 0.054, "neu": 0.946, "pos": 0.0, "compound": -0.2263}
+},
 
+"article3": 
+{
+"author": "Dr. maria",
+"base": "https://www.breitbart.com",
+"provider": "breitbart",
+"published_date": "2019-04-06T04:00:00+00:00",
+"keywords": ["guns"],
+"headline": "Internal emails between Planned Parenthood and the California Health and Human Services (CHHS) agency reveal the abortion industry giant pressured the state agency to force religious groups and churches to cover elective abortions.",
+"sentiment": {"neg": 0.054, "neu": 0.946, "pos": 0.0, "compound": -0.2263}
+},
+
+"article4": 
+{
+"author": "Dr. tony",
+"base": "https://www.breitbart.com",
+"provider": "breitbart",
+"published_date": "2019-04-06T04:00:00+00:00",
+"keywords": ["knives"],
+"headline": "Internal emails between Planned Parenthood and the California Health and Human Services (CHHS) agency reveal the abortion industry giant pressured the state agency to force religious groups and churches to cover elective abortions.",
+"sentiment": {"neg": 0.054, "neu": 0.946, "pos": 0.0, "compound": -0.2263}
 }
 
+}
 
 

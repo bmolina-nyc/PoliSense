@@ -1,44 +1,54 @@
 import React from 'react';
-import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
+import { InputGroup, Input } from 'reactstrap';
 import Card from './Card'
 
 export default class SearchBar extends React.Component{
     state = {
-        author:'',
-        base: '',
-        keywords: [],
-        headline: '',
-        sentiment: {},
-        loaded: false
+       articles: [],
+       author: '',
+       base:'',
+       headline:'',
+       sentiment: [],
+       result: []
     }
 
+    onChange = (e) => {
+        this.setState({
+            author: '',
+        })
 
-    componentDidMount() {
+        const text = e.target.value
+        let results = Object.values(this.state.articles)
+        
+        let result = results.find((obj) => obj.keywords.includes(text))
+
+        if (result){
+            this.setState({
+                author: result.author,
+                base:result.base,
+                headline:result.headline,
+                sentiment: result.sentiment,
+                result: result
+            })
+        }
+    }
+
+    componentDidMount = () => {
         fetch('/breitbart.json')
           .then(response => response.json())
-          .then(data  => this.setState({
-            author: data.author,
-            base: data.base,
-            keywords: data.keywords,
-            headline: data.headline,
-            sentiment: data.sentiment,
-            loaded: false
-          }))
-      }
-
+          .then(json => this.setState({articles: json}))
+    }
 
     render(){
       
         return(
             <div>
-            <InputGroup  xs="6" className="input">
-                <Input  onClick={this.onChange} placeholder="Enter your search" />
-            </InputGroup>
-             
-            <div>  
-                <Card data={this.state}/>
-             </div>
-
+                <InputGroup  xs="6" className="input">
+                    <Input  onChange={this.onChange} placeholder="Enter your search" />
+                </InputGroup>
+                <div>  
+                    {this.state.author && <Card data={this.state.result} sentiment={this.state.sentiment}/> }
+                </div>
             </div>
         )
     }
