@@ -50,8 +50,9 @@
   }
 
   .card{
-    width: 20%;
+    padding-top: 20px;
+    width: 75%;
     height: auto;
-    margin: 20px;
+    margin: auto;
     text-align: center;
   }

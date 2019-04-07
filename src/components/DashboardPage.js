@@ -1,7 +1,8 @@
 import React from 'react';
 import SearchBar from './Searchbar';
 import Card from './Card';
-
+// import Chart from './Chart'
+ 
 const DashboardPage = () => (
         <div className="dashboard">
             <div>
@@ -9,10 +10,6 @@ const DashboardPage = () => (
             </div>
 
             <div className="flex-container">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
             </div>
 
            
